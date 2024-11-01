@@ -41,10 +41,10 @@ def purchase_patterns(df: pd.DataFrame) -> pd.DataFrame:
 
 def answer_conceptual_questions() -> dict:
     answers = {
-        "Q1": ["A", "D"],
+        "Q1": ["A"],
         "Q2": ["B"],
         "Q3": ["C"],
-        "Q4": ["A", "B"],
+        "Q4": ["A"],
         "Q5": ["A"]
     }
     return answers
